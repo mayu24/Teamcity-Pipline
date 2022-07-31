@@ -216,5 +216,17 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+         <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0mfmjc1eq5ln-artifactory-primary-0-releases</name>
+        <url>https://devopsmayur.jfrog.io/artifactory/Devops</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0mfmjc1eq5ln-artifactory-primary-0-snapshots</name>
+        <url>https://devopsmayur.jfrog.io/artifactory/Devops</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
