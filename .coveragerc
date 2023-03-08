@@ -1,0 +1,6 @@
+[run]
+source = Teamcity-Test/
+omit = *test*, *migrations*
+
+[report]
+show_missing = True
